@@ -358,6 +358,7 @@ parts:
       - -DCEF_ROOT_DIR=$SNAPCRAFT_STAGE/CEF
       - -DBROWSER_PANEL_SUPPORT_ENABLED=FALSE
       - -DUSE_QT_LOOP=TRUE
+      - -DBUILD_CAPTIONS=ON
     source: https://github.com/obsproject/obs-studio.git
     parse-info: [usr/share/metainfo/com.obsproject.Studio.appdata.xml]
     override-pull: |
